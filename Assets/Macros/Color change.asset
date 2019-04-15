@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Color change
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-300.0,"y":-115.0},"guid":"f0c549e5-ca01-41fe-816f-ae0d5124c3c9","$version":"A","$type":"Bolt.Update","$id":"9"},{"chainable":false,"member":{"name":"a","parameterTypes":null,"targetType":"UnityEngine.Color","targetTypeName":"UnityEngine.Color","$version":"A"},"defaultValues":{"target":{"r":1.0,"g":1.0,"b":1.0,"a":0.8156657,"$type":"UnityEngine.Color"},"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":2.0,"y":-126.0},"guid":"0199b84f-1763-4da2-be39-7a412117a24d","$version":"A","$type":"Bolt.SetMember","$id":"11"},{"chainable":false,"member":{"name":"Sin","parameterTypes":["System.Single"],"targetType":"UnityEngine.Mathf","targetTypeName":"UnityEngine.Mathf","$version":"A"},"defaultValues":{"%f":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-202.0,"y":-24.0},"guid":"010bb9db-bab8-40e2-b5f7-907922f3b75b","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"member":{"name":"realtimeSinceStartup","parameterTypes":null,"targetType":"UnityEngine.Time","targetTypeName":"UnityEngine.Time","$version":"A"},"defaultValues":{},"position":{"x":-451.0,"y":-14.0},"guid":"1799c879-5f76-4457-b3c8-3d07dc4c8f40","$version":"A","$type":"Bolt.GetMember","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"ea54690c-75ea-4dfc-aab0-59e41d13321f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"result","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"2e049e19-175e-4a29-8250-7fa83039c51e","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"%f","guid":"9733ae6a-6adb-4ba6-b91b-ffc77313e2e5","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
